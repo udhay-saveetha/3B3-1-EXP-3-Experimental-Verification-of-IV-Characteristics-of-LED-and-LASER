@@ -1,13 +1,10 @@
-
-# Exp 3 Experimental Verification of IV Characteristics of LED and LASER
-# Fiber Optic LED Characteristics and Photo Detector Response
+# EXP-3-.Experimental-Verification-of-Current-Voltage-IV-Characteristics-of-LED-and-LASER
 
 ## 🎯 AIM
 To study the characteristics of fiber optic LED and plot the graph of forward current versus optical power, and to study the photo detector response.
 
----
-
 ## 🧰 EQUIPMENTS REQUIRED
+
 	Link-B Kit with power supply.
 	FCL-01 & FCL-02.
 	Patch chords.
@@ -15,24 +12,14 @@ To study the characteristics of fiber optic LED and plot the graph of forward cu
 	1 MHz Function Generator.
 	1 Meter Fiber Cable.
 	Jumper to Crocodile wires.
-  
-
----
 
 ## 📚 THEORY
 
 In optical fiber communication system, electrical signal is first converted into optical signal with the help of E / O conversion device as LED. After this optical signal is transmitted through optical fiber, it is retrieved in its original electrical form with the help O / E conversion device as photo detector.
 
-
 Different technologies employed in chip fabrication lead to significant variation in parameters for the various emitter diodes. All the emitters distinguish themselves in offering high output power coupled into the plastic fiber. Data sheets for LEDs usually specify electrical and optical characteristics, out of which are important peak wavelength of emission, conversion efficiency (usually specified in terms of power launched in optical fiber for specified forward current), optical rise and fall ties which put the limitation on operating frequency, maximum forward current through LED and typical forward voltage across LED.
 
-
-Photodetectors usually comes in variety of forms like photoconductive, photovoltaic, transistor type output and diode type output. Here also characteristics to be taken into account are response time of the detector which puts the limitation on the operating frequency, wavelength sensitivity and responsively.
-LED’s and LASER diodes are the commonly used sources in optical communication systems, whether the system transmits digital or analog signal. It is therefore, often necessary to use linear electrical to optical converter to allow its use in intensity modulation & high quality analog transmission systems.
-LED's have a linear optical output with relation to the forward current over a certain region of operation. Numerical aperture refers to the maximum angle at the light incident on the fiber end is totally internally reflected and is transmitted properly along the Fiber. The cone formed by the rotations of this angle along the axis of the Fiber is the cone of acceptance of the Fiber. The light ray should strike the fiber end within its cone of acceptance; else it is refracted out of the fiber core.
-
-
----
+Photodetectors usually comes in variety of forms like photoconductive, photovoltaic, transistor type output and diode type output. Here also characteristics to be taken into account are response time of the detector which puts the limitation on the operating frequency, wavelength sensitivity and responsively. LED’s and LASER diodes are the commonly used sources in optical communication systems, whether the system transmits digital or analog signal. It is therefore, often necessary to use linear electrical to optical converter to allow its use in intensity modulation & high quality analog transmission systems. LED's have a linear optical output with relation to the forward current over a certain region of operation. Numerical aperture refers to the maximum angle at the light incident on the fiber end is totally internally reflected and is transmitted properly along the Fiber. The cone formed by the rotations of this angle along the axis of the Fiber is the cone of acceptance of the Fiber. The light ray should strike the fiber end within its cone of acceptance; else it is refracted out of the fiber core.
 
 ## 🧪 PROCEDURE
 
@@ -55,32 +42,21 @@ V. This is the electrical power supplied to the LED. Data sheets for the LED spe
 •	Plot the graph of receiver current v/s output optical power of the LED.
 •	Perform the above procedure again for all the combinations of Transmitter & Receiver.
 
+## 🔌 CONNECTION DIAGRAM
 
----
-
-## 🔌 BLOCK DIAGRAM
-
-<img width="1135" height="715" alt="image" src="https://github.com/user-attachments/assets/ee34ea62-0c00-461a-9486-92f22eb0efec" />
-
----
+<img width="773" height="485" alt="image" src="https://github.com/user-attachments/assets/43dc41da-70eb-44fc-87c0-5211ffdae836" />
 
 ## 📊 TABULATION
 
-### LED Forward Characteristics
+LED Forward Characteristics 
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/dd1ba895-ccb7-4b9c-a58b-2af58902b9f1" />
 
-| Forward Voltage Vf (V) | Forward Current If (mA) |
-|------------------------|-------------------------|
-|                        |                         |
-|                        |                         |
-|                        |                         |
 
----
+📈 MODEL GRAPH
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/47a85e6f-259d-494f-bdff-97da59d74a34" />
 
-## 📈 MODEL GRAPH
-*(Insert graph of Vf vs If here)*
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/20ef5afc-789e-46d1-9969-6956a30fb5f2" />
 
----
 
 ## ✅ RESULT
-- The forward voltage and current characteristics of the fiber optic LED were successfully studied.
-- The photo detector response was observed and analyzed.
+The forward voltage and current characteristics of the fiber optic LED were successfully studied. The photo detector response was observed and analyzed.
